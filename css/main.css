@@ -195,6 +195,11 @@ a{
     column-gap: 55px;
 }
 
+.navbar-list__item{
+    display: flex;
+
+}
+
 .navbar-list-item__link:focus::before{
     position: absolute;
     left: -30px;
@@ -1042,6 +1047,9 @@ main{
     -webkit-box-align: start;
     -ms-flex-align: start;
     align-items: flex-start;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
 }
 
 .site-footer-item {
@@ -1097,6 +1105,7 @@ main{
 
 .footer-time-img {
     margin-right: 14px;
+    margin-top: 3px;
 }
 
 .footer-times {
@@ -1155,6 +1164,8 @@ main{
 
 .footer-address-img {
     margin-right: 9px;
+    margin-top: 5px;
+
 }
 
 .footer-addrees {
@@ -1188,6 +1199,8 @@ main{
 
 .footer-tel-img {
     margin-right: 9px;
+    margin-top: 3px;
+
 }
 
 .numbers {
