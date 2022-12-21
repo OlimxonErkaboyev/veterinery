@@ -1,10 +1,13 @@
-var elIMG = document.querySelector(".navbar-item__img")
-var elLink = document.querySelectorAll(".navbar-list-item__link")
 
+// var elNavItems = document.querySelectorAll(".navbar-list__item");
+// var elNavLinks = document.querySelectorAll(".navbar-list-item__link");
 
+// elNavLinks.forEach((link) => {
+//     link.addEventListener("click", function(){
+//         elNavItems.forEach(function(item){
+//             item.classList.remove("sitenav__item--active");
+//         })
 
-elLink.forEach((el) => {
-    el.addEventListener("click", () => {
-        elIMG.style.display = "none"
-    })
-})
+//         link.parentElement.classList.add("sitenav__item--active");
+//     })
+// })

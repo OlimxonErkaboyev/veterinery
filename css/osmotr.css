@@ -1,0 +1,141 @@
+.osmotr__hero-section {
+    margin-top: 93px;
+    padding-top: 530px;
+    background-image: url(../images/osmotr.hero-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1440px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.osmotr-wrapper {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    padding-top: 33px;
+    padding-left: 223px;
+    padding-bottom: 174px;
+    
+    
+}
+
+.osmotr-hero__start-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 263px;
+    margin-bottom: 33px;
+    padding: 0;
+}
+
+
+.osmotr-hero-item__link::after{
+    content: url(../images/icons/nuqta.svg);
+    margin-left: 7px;
+    margin-bottom: 3px;
+}
+
+.osmotr-hero-list-item:nth-child(3)>.osmotr-hero-item__link{
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+}
+
+.osmotr-hero-list-item:nth-child(3)>.osmotr-hero-item__link::after{
+    content: "";
+}
+
+.osmotr-hero-item__link {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+    color: #949494;
+}
+.osmotr-hero__title {
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.osmotr-hero__title >span{
+    margin-top: 0;
+    margin-bottom: 28px;
+    color: #FFBD54;
+}
+.osmotr-hero__desc {
+    width: 640px;
+    margin-top: 0;
+    margin-bottom: 22px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #949494;
+}
+
+.osmotr-hero__desc:nth-child(5){
+    width: 492px;
+}
+.osmotr-start-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 447px;
+    margin-top: 64px;
+}
+
+.article-section-item:first-child {
+    margin-bottom: 11px;
+}
+
+
+.osmotr__end-section{
+    background-image: url(../images/osmotr-end-bg.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1444px;
+    height: 636px;
+    margin-right: auto;
+    margin-bottom: 101px;
+    margin-left: auto;
+    padding-top: 110px;
+    padding-bottom: 151px;
+}
+
+.osmotr-end-section__wrapper{
+    display: flex;
+    /* align-items: flex-start; */
+    /* justify-content: center; */
+    padding-left: 112px;
+
+    
+}
+
+.osmotr-end-section-title{
+    width: 276px;
+    margin-top: 0;
+    margin-right: 61px;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+.osmotr-end-section-desc{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.contact-section-inp, .contact-section-label{
+    width: 335px;
+}
+
+.contact-section-btn{
+    background-color: #000;
+}

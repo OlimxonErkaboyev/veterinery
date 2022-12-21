@@ -196,11 +196,12 @@ a{
 }
 
 .navbar-list__item{
+    position: relative;
     display: flex;
 
 }
 
-.navbar-list-item__link:focus::before{
+.sitenav__item--active::before{
     position: absolute;
     left: -30px;
     content: url(../images/icons/fish.svg);
